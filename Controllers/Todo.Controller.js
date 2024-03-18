@@ -2,7 +2,7 @@ const todo = require('../models/Todo.Model')
 
 module.exports = {
     create: async (req, res) => {
-        const id = req.body.id;
+        // const id = req.body.id;
         const title = req.body.title;
         const content = req.body.content;
         const savTodo = new todo({ title: title, content: content })

@@ -5,8 +5,8 @@ mongoose
         dbName: process.env.DB_NAME,
         useNewUrlParser: true,
         useUnifiedTopology: true,
-        useFindAndModify: false,
-        useCreateIndex: true,
+        // useFindAndModify: true,
+        // useCreateIndex: true,
     })
     .then(() => {
         console.log('mongodb connected.')
